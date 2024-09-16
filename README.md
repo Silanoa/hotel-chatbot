@@ -60,7 +60,7 @@ Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
 
     
     git clone https://github.com/Silanoa/hotel-chatbot.git
-    cd chatbot-hotel-management
+    cd hotel-chatbot
     
 
 
