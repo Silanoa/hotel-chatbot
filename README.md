@@ -58,27 +58,24 @@ Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
 
 1\. **Clonez le dépôt du projet** :
 
-   ```
-   git clone https://github.com/username/chatbot-hotel-management.git
+    
+    git clone https://github.com/Silanoa/hotel-chatbot.git
+    cd chatbot-hotel-management
+    
 
-   cd chatbot-hotel-management
-   ```
 
 2\. **Créez et activez un environnement virtuel** :
 
-   ```
-
-   python -m venv venv
-
-   source venv/bin/activate  # Sur Windows utilisez `venv\Scripts\activate`
-
-   ```
+    
+    python -m venv venv
+    source venv/bin/activate  # Sur Windows utilisez `venv\Scripts\activate`
+    
 
 3\. **Installez les dépendances** :
 
-   ```
-   pip install -r requirements.txt
-   ```
+    
+    pip install -r requirements.txt
+    
 
 4\. **Configurez la base de données MySQL** :
 
@@ -90,21 +87,21 @@ Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
 
    Créez un fichier `.env` à la racine du projet et ajoutez les informations de connexion à votre base de données MySQL :
 
-   ```
-  DB_USER=root
-  DB_PASSWORD=yourpassword
-  DB_HOST=localhost
-  DB_NAME=hotel_chatbot
-   ```
+    
+    DB_USER=root
+    DB_PASSWORD=yourpassword
+    DB_HOST=localhost
+    DB_NAME=hotel_chatbot
+    
 
 ## Utilisation
 
 1\. **Lancez le chatbot** :
 
-   ```
-   python chat.py
-   DB_USER=root
-   ```
+  
+    python chat.py
+    DB_USER=root
+    
 
 2\. **Interagissez avec le chatbot** :
 
@@ -120,8 +117,8 @@ Le chatbot est conçu pour s'améliorer au fil du temps grâce à deux mécanism
 
 Pour réentraîner le modèle avec de nouvelles données ou en fonction des questions inconnues :
 
-```
-python train.py  # Pour réentraîner le modèle de NLP
-
-python train_rl.py  # Pour l'apprentissage par renforcement
-```
+    
+    python train.py  # Pour réentraîner le modèle de NLP
+    
+    python train_rl.py  # Pour l'apprentissage par renforcement
+    
