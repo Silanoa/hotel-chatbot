@@ -81,7 +81,7 @@ Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
 
    - Créez une base de données MySQL nommée `hotel_chatbot`.
 
-   - Importez les schémas de tables nécessaires (`user_sessions`, `reservations`, `clients`, `chambres`, etc.) à partir du fichier `database_schema.sql`.
+   - Importez les schémas de tables nécessaires (`user_sessions`, `reservations`, `clients`, `chambres`, etc.) à partir du fichier `hotel_chatbot.sql`.
 
 5\. **Définissez les variables d'environnement** :
 
