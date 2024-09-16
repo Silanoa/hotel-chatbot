@@ -1,0 +1,119 @@
+{
+  "intents": [
+    {
+      "tag": "salutation_matin",
+      "patterns": ["Bonjour", "Bon matin", "Bonne journée", "Salut", "Coucou", "Bonjour!", "Salut!", "Coucou!"],
+      "responses": ["Bonjour! Comment puis-je vous aider aujourd'hui?", "Bonjour! Que puis-je faire pour vous?", "Bonjour! Comment puis-je vous assister?"]
+    },
+    {
+      "tag": "salutation_soir",
+      "patterns": ["Bonsoir", "Bonne soirée", "Bonsoir!", "Bonne soirée!"],
+      "responses": ["Bonsoir! En quoi puis-je vous être utile?", "Bonsoir! Que puis-je faire pour vous?", "Bonsoir! Comment puis-je vous assister?"]
+    },
+    {
+      "tag": "au_revoir",
+      "patterns": ["Au revoir", "À bientôt", "Bye", "Merci, au revoir", "À plus tard", "Ciao", "Adieu"],
+      "responses": ["Au revoir! Passez une excellente journée!", "À bientôt!", "Bye! N'hésitez pas à revenir si vous avez d'autres questions.", "Merci! À la prochaine!"]
+    },
+    {
+      "tag": "reservation_chambre",
+      "patterns": ["Je voudrais réserver une chambre", "Réserver une chambre", "J'ai besoin d'une chambre", "Je veux faire une nouvelle réservation", "Faire une réservation", "Je souhaite réserver une chambre", "Réserve une chambre pour moi"],
+      "responses": ["Pour quel type de chambre souhaitez-vous faire une réservation? (simple, double, suite)"]
+    },
+    {
+      "tag": "ask_reservation_possibility",
+      "patterns": ["Pouvez-vous faire des réservations?", "Faites-vous des réservations?", "Acceptez-vous des réservations?", "Puis-je réserver une chambre?", "Faites-vous des réservations de chambres?"],
+      "responses": ["Oui, nous acceptons les réservations. Souhaitez-vous en faire une?"]
+    },
+    {
+      "tag": "confirm_reservation",
+      "patterns": ["oui", "d'accord", "je veux réserver", "je veux faire une réservation", "je confirme", "c'est bon pour moi"],
+      "responses": ["Pour quel type de chambre souhaitez-vous faire une réservation? (simple, double, suite)"]
+    },
+    {
+      "tag": "demande_nom",
+      "patterns": [],
+      "responses": ["Pouvez-vous me donner votre nom, s'il vous plaît?"]
+    },
+    {
+      "tag": "confirmation_reservation",
+      "patterns": [],
+      "responses": ["Merci {name}. Votre réservation {reservation_id} est confirmée."]
+    },
+    {
+      "tag": "annuler_reservation",
+      "patterns": ["Je veux annuler ma réservation", "Comment annuler une réservation?", "Annuler ma réservation", "Puis-je annuler ma réservation?"],
+      "responses": ["Veuillez fournir votre numéro de réservation pour annuler (ex: RES00001)."]
+    },
+    {
+      "tag": "prolonger_sejour",
+      "patterns": ["Je veux prolonger mon séjour", "Puis-je prolonger mon séjour?", "Prolongation de séjour", "Prolonger ma réservation"],
+      "responses": ["Voulez-vous prolonger votre séjour? Veuillez indiquer les nouvelles dates de départ (format JJ/MM/AAAA)."]
+    },
+    {
+      "tag": "service_piscine",
+      "patterns": ["Avez-vous une piscine", "Parlez-moi de votre piscine", "Informations sur la piscine"],
+      "responses": ["Oui, nous avons une piscine ouverte de 8h à 22h. Elle est située au deuxième étage avec une vue panoramique."]
+    },
+    {
+      "tag": "service_spa",
+      "patterns": ["Avez-vous un spa", "Parlez-moi de votre spa", "Informations sur le spa"],
+      "responses": ["Oui, notre spa est ouvert de 9h à 22h. Nous proposons divers soins et massages pour votre détente."]
+    },
+    {
+      "tag": "service_restaurant",
+      "patterns": ["Avez-vous un restaurant", "Parlez-moi de votre restaurant", "Informations sur le restaurant"],
+      "responses": ["Oui, notre restaurant est ouvert de 7h à 23h et propose une cuisine locale et internationale."]
+    },
+    {
+      "tag": "service_salle_de_sport",
+      "patterns": ["Avez-vous une salle de sport", "Parlez-moi de votre salle de sport", "Informations sur la salle de sport"],
+      "responses": ["Oui, notre salle de sport est équipée de matériel moderne et ouverte 24h/24 pour votre convenance."]
+    },
+    {
+      "tag": "service_parking",
+      "patterns": ["Avez-vous un parking", "Parlez-moi de votre parking", "Informations sur le parking"],
+      "responses": ["Oui, nous disposons d'un parking gratuit pour nos clients, disponible 24h sur 24."]
+    },
+    {
+      "tag": "service_wifi",
+      "patterns": ["Avez-vous le Wi-Fi", "Parlez-moi de votre Wi-Fi", "Informations sur le Wi-Fi"],
+      "responses": ["Oui, nous offrons un accès Wi-Fi gratuit et illimité dans tout l'hôtel."]
+    },
+    {
+      "tag": "faq_horaires_restaurant",
+      "patterns": ["Quels sont les horaires du restaurant", "Restaurant ouvert à quelles heures"],
+      "responses": ["Notre restaurant est ouvert de 7h à 23h."]
+    },
+    {
+      "tag": "faq_disponibilite_services",
+      "patterns": ["Quels services sont disponibles", "Quels services proposez-vous"],
+      "responses": ["Nous proposons une piscine, un spa, un restaurant, une salle de sport, un parking gratuit et le Wi-Fi."]
+    },
+    {
+      "tag": "faq_tarifs_chambres",
+      "patterns": ["Quels sont les tarifs des chambres", "Combien coûte une chambre"],
+      "responses": ["Nos tarifs commencent à 80€ pour une chambre simple, 120€ pour une chambre double, et 200€ pour une suite."]
+    },
+    {
+      "tag": "faq_modalites_paiement",
+      "patterns": ["Comment puis-je payer", "Quels modes de paiement acceptez-vous"],
+      "responses": ["Nous acceptons les paiements en espèces, par carte de crédit (Visa, MasterCard, American Express) et par virement bancaire."]
+    },
+    {
+      "tag": "renseignements_generaux",
+      "patterns": ["Donnez-moi des renseignements généraux", "Informations générales", "Renseignements sur l'hôtel"],
+      "responses": ["Bienvenue à notre hôtel! Nous offrons une gamme complète de services pour rendre votre séjour agréable. Comment puis-je vous aider aujourd'hui?"]
+    },
+    {
+      "tag": "assistance_technique",
+      "patterns": ["J'ai un problème technique", "Assistance technique", "Problème avec le Wi-Fi"],
+      "responses": ["Je suis désolé pour le désagrément. Veuillez vérifier votre connexion ou redémarrer votre appareil. Si le problème persiste, contactez notre service technique au +33 1 23 45 67 89."]
+    },
+    {
+      "tag": "reprise_apres_action",
+      "patterns": [],
+      "responses": ["Comment puis-je vous aider ?", "Que puis-je faire d'autre pour vous ?", "Y a-t-il autre chose que je puisse faire pour vous ?"]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+torch
+transformers
+nltk
+numpy
+mysql-connector-python
+pyttsx3
+SpeechRecognition
+pyaudio
+gym
+stable-baselines3[extra]
+Pillow
+opencv-python
